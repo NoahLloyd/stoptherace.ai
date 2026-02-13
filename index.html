@@ -4,9 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Stop The Race · March 21, 2026</title>
-<meta name="description" content="Join 1,000 people in front of Anthropic's office to ask Dario Amodei to publicly commit to a conditional global pause on frontier AI development.">
+<meta name="description" content="Marching to Anthropic, OpenAI, and xAI. Asking AI CEOs to commit to a conditional global pause. March 21, San Francisco.">
 <meta property="og:title" content="Stop The AI Race · March 21, 2026">
-<meta property="og:description" content="Asking Dario Amodei to commit to a conditional global pause. 12PM, 500 Howard St, San Francisco.">
+<meta property="og:description" content="Marching to Anthropic, OpenAI, and xAI. Asking AI CEOs to commit to a conditional global pause. March 21, San Francisco.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://stoptherace.ai">
 <meta property="og:image" content="https://stoptherace.ai/stoptheairace.avif">
@@ -341,6 +341,77 @@
     border-bottom-color: var(--red);
   }
 
+  /* ---- MARCH SCHEDULE ---- */
+  .march-schedule {
+    max-width: 480px;
+    margin: 0 auto 3rem;
+    text-align: left;
+  }
+
+  .march-stop {
+    display: flex;
+    align-items: baseline;
+    gap: 1.2rem;
+    padding: 0.8rem 0;
+    border-bottom: 1px solid rgba(240, 236, 228, 0.06);
+  }
+
+  .march-stop:last-child {
+    border-bottom: none;
+  }
+
+  .march-time {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--red);
+    letter-spacing: 0.05em;
+    white-space: nowrap;
+    min-width: 5.5rem;
+  }
+
+  .march-place {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 1.05rem;
+    color: var(--white);
+  }
+
+  .march-address {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    color: var(--gray);
+    margin-top: 0.15rem;
+    letter-spacing: 0.02em;
+  }
+
+  .march-address a {
+    color: var(--gray);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  .march-address a:hover {
+    color: var(--red);
+  }
+
+  .march-connector {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    padding: 0.3rem 0;
+  }
+
+  .march-connector-spacer {
+    min-width: 5.5rem;
+  }
+
+  .march-connector-line {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    color: rgba(214, 40, 40, 0.3);
+    letter-spacing: 0.1em;
+  }
+
   /* ---- CTA BUTTONS ---- */
   .cta-group {
     display: flex;
@@ -442,7 +513,6 @@
   }
 
   /* ---- FOOTER ---- */
-
 
   footer a {
     color: var(--red);
@@ -659,7 +729,7 @@
     color: inherit;
     text-decoration: none;
     cursor: pointer;
-    border-bottom: 1px solid transparent; /* Hidden by default */
+    border-bottom: 1px solid transparent;
     transition: all 0.2s ease;
   }
 
@@ -692,6 +762,7 @@
     .context { padding: 3rem 1.5rem; }
     .cta-primary { padding: 1rem 2rem; width: 100%; max-width: 320px; text-align: center; }
     .cta-secondary { width: 100%; max-width: 320px; text-align: center; }
+    .march-schedule { padding: 0 1rem; }
   }
 </style>
 </head>
@@ -700,15 +771,15 @@
 <!-- HERO -->
 <section class="hero">
   <h1 class="hero-title">Stop The<br><span class="red">AI Race</span></h1>
-  <p class="hero-subtitle">1,000 people asking Dario Amodei to pause if others do.</p>
-  <a href="https://luma.com/s0k8wvee?from=embed&tk=9dond4" target="_blank" rel="noopener" class="hero-cta">Join the Protest</a>
+  <p class="hero-subtitle">Asking Elon, Sam, and Dario to commit to a conditional global pause.</p>
+  <a href="https://luma.com/s0k8wvee?from=embed&tk=9dond4" target="_blank" rel="noopener" class="hero-cta">Join the March</a>
 </section>
 
 <!-- THE DEMAND -->
 <section class="demand reveal">
   <p class="demand-label">Our Single Demand</p>
   <p class="demand-text">
-    Dario Amodei must <span class="highlight">publicly commit</span> to pausing frontier model development <span class="highlight">if every frontier lab</span> credibly does the same.
+    Every major AI lab CEO must <span class="highlight">publicly commit</span> to pausing frontier model development <span class="highlight">if every other lab in the world</span> credibly does the same.
   </p>
 </section>
 
@@ -734,9 +805,9 @@
 <section class="context reveal">
   <p>Dario knows the race is reckless. He's said so himself, repeatedly. But he argues he can't slow down because <a href="https://youtu.be/NnVW9epLlTM?si=nH3Gc5cfv7dDNUqt&t=1377" target="_blank" rel="noopener" class="subtle-link">"we have geopolitical adversaries building the same technology at a similar pace."</a></p>
 
-  <p>We're not asking him to stop alone. Just to say: <strong>if the others pause, I will too.</strong></p>
+  <p>We're not asking anyone to stop alone. Just to say: <strong>if the others pause, I will too.</strong></p>
 
-  <p>In September 2025, we protested at Google DeepMind with the same demand. <span class="video-trigger" id="demis-trigger">Demis Hassabis said yes.</span> Now it's Dario's turn.</p>
+  <p>In September 2025, we protested at Google DeepMind with the same demand. <span class="video-trigger" id="demis-trigger">Demis Hassabis said he'd be open to it</span> — but that international coordination was the key bottleneck. Public commitments from lab leaders are what create the conditions for that coordination. Now it's Elon, Sam, and Dario's turn.</p>
 
   <p>Anthropic says it's the safety company. <strong>Prove it.</strong></p>
 </section>
@@ -760,37 +831,77 @@
 
 <!-- EVENT DETAILS -->
 <section class="event reveal">
-  <p class="event-label">Be There</p>
+  <p class="event-label">The March</p>
   <p class="event-date">Saturday, March 21</p>
-  <p class="event-time">12:00 PM – 2:00 PM PT</p>
-  <p class="event-location">Anthropic HQ</p>
-  <a href="https://maps.app.goo.gl/anthropic" target="_blank" rel="noopener" class="event-address-link">500 Howard St, San Francisco, CA 94105</a>
+  <p class="event-time">12:00 PM – 4:00 PM PT</p>
+
+  <div class="march-schedule">
+    <div class="march-stop">
+      <span class="march-time">12:00 PM</span>
+      <div>
+        <div class="march-place">Rally at Anthropic</div>
+        <div class="march-address"><a href="https://maps.google.com/?q=500+Howard+St+San+Francisco+CA" target="_blank" rel="noopener">500 Howard St</a></div>
+      </div>
+    </div>
+    <div class="march-connector">
+      <span class="march-connector-spacer"></span>
+      <span class="march-connector-line">↓ march south</span>
+    </div>
+    <div class="march-stop">
+      <span class="march-time">1:00 PM</span>
+      <div>
+        <div class="march-place">OpenAI</div>
+        <div class="march-address"><a href="https://maps.google.com/?q=1455+3rd+St+San+Francisco+CA" target="_blank" rel="noopener">1455 3rd St, Mission Bay</a></div>
+      </div>
+    </div>
+    <div class="march-connector">
+      <span class="march-connector-spacer"></span>
+      <span class="march-connector-line">↓ march west</span>
+    </div>
+    <div class="march-stop">
+      <span class="march-time">2:00 PM</span>
+      <div>
+        <div class="march-place">xAI</div>
+        <div class="march-address"><a href="https://maps.google.com/?q=3180+18th+St+San+Francisco+CA" target="_blank" rel="noopener">3180 18th St, Mission District</a></div>
+      </div>
+    </div>
+    <div class="march-connector">
+      <span class="march-connector-spacer"></span>
+      <span class="march-connector-line">↓ walk to park</span>
+    </div>
+    <div class="march-stop">
+      <span class="march-time">3:00 PM</span>
+      <div>
+        <div class="march-place">Celebration at Dolores Park</div>
+        <div class="march-address"><a href="https://maps.google.com/?q=Dolores+Park+San+Francisco+CA" target="_blank" rel="noopener">Dolores Park</a></div>
+      </div>
+    </div>
+  </div>
 
   <div class="cta-group">
     <a href="https://luma.com/s0k8wvee?from=embed&tk=9dond4" target="_blank" rel="noopener" class="cta-primary">Register on Luma</a>
     <a href="https://partiful.com/e/hlLlRjuwrecvOsKchIyD" target="_blank" rel="noopener" class="cta-secondary">Or register anonymously on Partiful</a>
     <div class="share-row">
-      <a class="share-btn" href="https://twitter.com/intent/tweet?text=I%E2%80%99m%20joining%201%2C000%20people%20in%20front%20of%20Anthropic%20on%20March%2021%20to%20ask%20Dario%20to%20commit%20to%20a%20conditional%20global%20pause.%20Will%20you%3F%20stoptherace.ai" target="_blank" rel="noopener">Share on X</a>
+      <a class="share-btn" href="https://twitter.com/intent/tweet?text=I%E2%80%99m%20marching%20to%20Anthropic%2C%20OpenAI%2C%20and%20xAI%20on%20March%2021%20to%20ask%20AI%20CEOs%20to%20commit%20to%20a%20conditional%20global%20pause.%20Will%20you%3F%20stoptherace.ai" target="_blank" rel="noopener">Share on X</a>
       <a class="share-btn" href="https://www.linkedin.com/sharing/share-offsite/?url=https://stoptherace.ai" target="_blank" rel="noopener">Share on LinkedIn</a>
       <button class="share-btn" onclick="navigator.clipboard.writeText('https://stoptherace.ai').then(()=>{this.textContent='✓ Copied'})">Copy Link</button>
     </div>
   </div>
 </section>
 
-<!-- PRINCIPLES -->
 <!-- FAQ -->
 <section class="faq reveal">
   <div class="faq-item">
-    <div class="faq-question">Are you against Anthropic or AI?</div>
+    <div class="faq-question">Are you against these companies or AI?</div>
     <div class="faq-answer">
-      No. We are not protesting the technology; we are protesting the <strong>reckless race</strong> to build it. We are here to give Dario Amodei the public mandate he needs to stop racing and start coordinating.
+      No. We are not protesting the technology; we are protesting the <strong>reckless race</strong> to build it. We are here to give AI lab CEOs the public mandate they need to stop racing and start coordinating.
     </div>
   </div>
   
   <div class="faq-item">
     <div class="faq-question">Is this protest nonviolent?</div>
     <div class="faq-answer">
-      Yes. This is a peaceful assembly of concerned citizens, families, and researchers. We are not here to disrupt, and we welcome Anthropic employees to join us.
+      Yes. This is a peaceful assembly of concerned citizens, families, and researchers. We are not here to disrupt, and we welcome employees of these companies to join us.
     </div>
   </div>
 </section>
@@ -824,7 +935,6 @@
   const floatObserver = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.target === heroSection) {
-        // Show floating bar once hero is scrolled past
         if (!entry.isIntersecting) {
           floatingCta.classList.add('visible');
           floatingCta.classList.remove('hide');
@@ -833,7 +943,6 @@
         }
       }
       if (entry.target === eventSection) {
-        // Hide when event section (with register buttons) is on screen
         if (entry.isIntersecting) {
           floatingCta.classList.add('hide');
         } else if (!heroSection.getBoundingClientRect().bottom > 0) {
@@ -849,11 +958,9 @@
   // Keyboard shortcut: press R to open registration
   document.addEventListener('keydown', (e) => {
     if (e.key === 'r' || e.key === 'R') {
-      // Don't trigger if user is typing in an input
       if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
       window.open('https://luma.com/s0k8wvee?from=embed&tk=9dond4', '_blank');
     }
-    // Close video on ESC
     if (e.key === 'Escape') {
        closeVideoModal();
     }
@@ -884,7 +991,6 @@
     closeVideo.addEventListener('click', closeVideoModal);
   }
 
-  // Close on backdrop click
   if (videoModal) {
     videoModal.addEventListener('click', (e) => {
       if (e.target === videoModal) {
